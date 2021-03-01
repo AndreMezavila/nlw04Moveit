@@ -3,6 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* dark
+:root {
+  --white: #E1E1E6;
+  --background: #191622;
+  --gray-line: #DCDDE0;
+  --text: #988BC7;
+  --text-highlight: #B3B9FF;
+  --title: #44475a;
+  --red: #E83F5B;
+  --green: #4CD62B;
+  --blue: #5965E0;
+  --blue-dark: #4953B8;
+  --blue-twitter: #2aa9E0;
+}
+*/
 
 :root {
   --white: #fff;
@@ -17,6 +32,7 @@
   --blue-dark: #4953b8;
   --blue-twitter: #2aa9e0;
 }
+
 
 @media(max-width: 1080px) {
   html {
@@ -35,14 +51,9 @@ body {
   color: var(--text);
 }
 
-
 body, input, textarea, button {
-  font:400;
-  font-family: 'Inter', sans-serif;
-  font-size: 1rem;
+  font: 400 16px 'Inter', sans-serif;
 }
-
-
 
 button {
   cursor: pointer;
@@ -52,4 +63,3 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
